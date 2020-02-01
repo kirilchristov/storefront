@@ -15,11 +15,10 @@ function App() {
     <div>
     <BrowserRouter>
       <Switch>
-        <Route exact path='/' component={HomePage} />
+        <Route  exact path='/' component={HomePage} />
         <Route  path='/hats' component={HatsPage} />
       </Switch>
-    </BrowserRouter>
-      
+    </BrowserRouter> 
     </div>
   );
 }
